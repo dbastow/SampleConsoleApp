@@ -10,7 +10,8 @@ namespace SampleConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("This is a humble start");
+            Console.WriteLine("This is a humble start, press enter");
+            int x = Console.Read();
         }
     }
 }
